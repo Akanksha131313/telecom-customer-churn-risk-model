@@ -1,56 +1,69 @@
-⭐ Telco Customer Churn Prediction (Machine Learning Project)
-📌 Project Overview -
-Customer churn is one of the biggest challenges in the telecom industry. This project focuses on building a Machine Learning model that predicts whether a customer is likely to leave a telecom service based on customer behavior and subscription details.
+**telecom-customer-churn-risk-model :** 
 
-🎯 Objective -
-1. Analyze customer data
-2. Identify churn patterns
-3. Build predictive ML models
-4. Help businesses reduce customer loss
+**Predict & Retain High-Risk Customers ->**
 
-🛠️ Tech Stack
-1. Python
-2. Pandas & NumPy
-3. Matplotlib & Seaborn
-4. Scikit-learn
-5. Google Colab
+**Why it matters -**
 
-📊 Project Workflow
-✔ Data Loading & Cleaning
-✔ Exploratory Data Analysis (EDA)
-✔ Feature Engineering
-✔ Model Training
-✔ Model Evaluation
+• Helps telecoms reduce revenue loss by proactively identifying high-risk churn customers and understanding the top drivers behind churn.
 
-🤖 Machine Learning Models Used
-1.Logistic Regression
-2.Random Forest Classifier
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📈 Results
-->The trained model successfully predicts customer churn and highlights important factors influencing customer retention. 
-->The project demonstrates strong understanding of data preprocessing, feature engineering, and ML model evaluation.
+**Key Metrics & Business Insights -**
 
-📂 Project Structure
-data/ → Dataset  
-notebooks/ → Data analysis & experimentation  
-src/ → ML pipeline scripts  
-README.md → Project documentation  
-requirements.txt → Dependencies  
+• Churn rate: ~49% → significant revenue risk
 
-💡 Key Skills Demonstrated
-1. Data Cleaning & Transformation
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Machine Learning Model Building
-5. Model Evaluation Techniques
-6. Python Programming
+• Short-tenure churn (<12 months): ~48% → early-stage retention critical
 
-🚀 Future Improvements
-1. Hyperparameter tuning
-2. Model deployment using Streamlit or Flask
-3. Adding advanced ML algorithms
+• Top drivers: PaymentMethod, TotalCharges, TechSupport → focus areas for retention campaigns
 
-👩‍💻 Author
-Akanksha Mishra
-Aspiring Data Analyst / Machine Learning Enthusiast
+• Model accuracy: 0.37 (limited due to small dataset & class imbalance; insights emphasize actionable trends rather than raw score)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Impact on Business -**
+
+• Prioritize retention campaigns for high-risk customers (~49% churn)
+
+• Target short-tenure customers to reduce early churn (~48%)
+
+• Leverage top churn drivers to refine offers, support, and engagement strategies
+
+• Enable data-driven decision making for customer retention initiatives
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Project Structure -**
+
+• src/       → Python modules: 01_data_processing, 02_model_evaluation, 03_model_training
+
+• data/      → telecom_churn_dataset_utf8.csv
+
+• notebook/  → Interactive Colab/Jupyter analysis
+
+• requirements.txt → Dependencies for reproducibility
+
+• README.md  → Project overview & instructions
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Quick Start -**
+
+1. Place dataset → data/telecom_churn_dataset_utf8.csv
+
+2. Run 01_data_processing.py → clean & prepare data
+
+3. Run 03_model_training.py → train model & print dynamic business insights
+
+4. Optional: 02_model_evaluation.py → visualize metrics & confusion matrix
+
+5. Open notebook → notebook/telecom_churn_analysis.ipynb for interactive analysis
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Keywords for ATS-**
+
+Telecom, churn prediction, Logistic Regression, feature importance, retention strategy, predictive model, classification report, confusion matrix, customer lifetime value
+
+
+Optimized for recruiter quick scan and ATS compliance.
+Emphasizes business impact, actionable insights, and practical application of predictive modeling.
